@@ -34,7 +34,6 @@ public class MainWithInMemory {
         application.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         final CardLayout cardLayout = new CardLayout();
-
         // The various View objects. Only one view is visible at a time.
         final JPanel views = new JPanel(cardLayout);
         application.add(views);
